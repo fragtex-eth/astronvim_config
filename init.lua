@@ -57,7 +57,8 @@ return {
       solidity = {
         cmd = { "nomicfoundation-solidity-language-server", "--stdio" },
         filetypes = { "solidity" },
-        require("lspconfig.util").root_pattern "foundry.toml",
+        -- require("lspconfig.util").root_pattern "foundry.toml",
+        root_dir = lspconfig.util.find_git_ancestor,
         single_file_support = true,
       },
     },
