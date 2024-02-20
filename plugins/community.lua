@@ -13,4 +13,5 @@ return {
   { import = "astrocommunity.pack.json" },
   { import = "astrocommunity.pack.go" },
   { import = "astrocommunity.pack.docker" },
+  { import = "astrocommunity.worflow.hardtime-nvim" },
 }
