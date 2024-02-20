@@ -15,4 +15,11 @@ return {
     opts = {},
     event = "User AstroFile",
   },
+  {
+    "tpope/vim-fugitive",
+    config = function() end,
+    dependencies = {},
+    opts = {},
+    event = "User AstroGitFile",
+  },
 }
