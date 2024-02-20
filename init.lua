@@ -19,7 +19,7 @@ return {
 
   -- Set colorscheme to use
   colorscheme = "astrodark",
-
+  -- colorscheme = "octagon",
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
     virtual_text = true,
@@ -48,19 +48,6 @@ return {
       --   return true
       -- end
     },
-    -- enable servers that you already have installed without mason
-    servers = {
-      -- "pyright"
-      "solidity",
-    },
-    ["server-settings"] = {
-      solidity = {
-        cmd = { "nomicfoundation-solidity-language-server", "--stdio" },
-        filetypes = { "solidity" },
-        require("lspconfig.util").root_pattern "foundry.toml",
-        single_file_support = true,
-      },
-    },
   },
 
   -- Configure require("lazy").setup() options
@@ -75,6 +62,7 @@ return {
   },
 
   -- This function is run last and is a good place to configuring
+
   -- augroups/autocommands and custom filetypes also this just pure lua so
   -- anything that doesn't fit in the normal config locations above can go here
   polish = function()
