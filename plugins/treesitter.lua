@@ -6,7 +6,7 @@ return {
       "lua",
       "javascript",
       "typescript",
-      "solidity"
+      "solidity",
     })
   end,
 }

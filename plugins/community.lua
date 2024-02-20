@@ -13,5 +13,6 @@ return {
   { import = "astrocommunity.pack.json" },
   { import = "astrocommunity.pack.docker" },
   { import = "astrocommunity.workflow.hardtime-nvim" },
+  { import = "astrocommunity.colorscheme.monokai-pro-nvim" },
   { import = "astrocommunity.diagnostics.lsp_lines-nvim" },
 }
