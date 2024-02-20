@@ -49,19 +49,19 @@ return {
       -- end
     },
     -- enable servers that you already have installed without mason
-    servers = {
-      -- "pyright"
-      "solidity",
-    },
-    ["server-settings"] = {
-      solidity = {
-        cmd = { "nomicfoundation-solidity-language-server", "--stdio" },
-        filetypes = { "solidity" },
-        -- require("lspconfig.util").root_pattern "foundry.toml",
-        root_dir = lspconfig.util.find_git_ancestor,
-        single_file_support = true,
-      },
-    },
+    -- servers = {
+    --   -- "pyright"
+    --   "solidity",
+    -- },
+    -- ["server-settings"] = {
+    --   solidity = {
+    --     cmd = { "nomicfoundation-solidity-language-server", "--stdio" },
+    --     filetypes = { "solidity" },
+    --     -- require("lspconfig.util").root_pattern "foundry.toml",
+    --     -- root_dir = lspconfig.util.find_git_ancestor,
+    --     single_file_support = true,
+    --   },
+    -- },
   },
 
   -- Configure require("lazy").setup() options
