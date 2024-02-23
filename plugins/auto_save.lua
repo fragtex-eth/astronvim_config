@@ -1,7 +1,7 @@
 return {
   {
     "Pocco81/auto-save.nvim",
-    lazy = false,
+    lazy = true,
     config = function()
       require("auto-save").setup {
         enabled = false, -- start auto-save when the plugin is loaded (i.e. when your package manager loads it)
