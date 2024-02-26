@@ -16,7 +16,7 @@ return {
       --   ["remote3"] = "github_user", -- GitHub user assume AstroNvim fork
     },
   },
-
+ vim.opt.wrap = true,
   -- Set colorscheme to use
   colorscheme = "astrodark",
   -- colorscheme = "octagon",
